@@ -1,0 +1,17 @@
+:root {
+    --text:#212832;
+    --ff:"Poppins", sans-serif;
+    --1st: #181E4B;
+    --3rd: #14183E;
+    --phr:#5E6282;
+    
+
+}
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
