@@ -1,11 +1,28 @@
-import './App.css'
-import Travel from './components/Travel'
+import './App.css';
+import Navegation from './components/Navegation';
+import Trip from './components/Trip';
+
+
+
+
 
 function App() {
  
 
-  return  (
-    <Travel/>
+  return  (  
+    
+    <div className='container'>
+      <Navegation/>
+    <div>
+    <Trip />
+      
+    </div>
+  </div>
+  
+   
+    
+    
+   
   )
 
   

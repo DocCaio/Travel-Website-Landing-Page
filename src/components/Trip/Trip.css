@@ -1,31 +1,10 @@
-.nav_bar {
+.text {
     display: flex;
     justify-content: space-between;
     padding: 1rem;
 }
 
-.nav_bar ul {
-    display: flex;
-    gap: 1rem;
-    list-style: none;
-
-}
-
-.nav_bar ul a {
-    font-family: var(--ff);
-    color: var(--text);
-    text-decoration: none;
-    font-size: 17px;
-    font-weight: 400;
-}
-
-#sing {
-    border-radius: 5px;
-    border: 1px solid var(--text);
-    padding: 0.5rem;
-}
-
-header h2 {
+main h2 {
     color: #DF6951;
     font-family: var(--ff);
     font-size: 20px;
@@ -35,7 +14,7 @@ header h2 {
     text-transform: uppercase;
 }
 
-header p {
+main p {
     color: var(--phr);
     font-family: var(--ff);
     font-size: 16px;
@@ -64,20 +43,24 @@ small {
     font-size: 17px;
     font-style: normal;
     font-weight: 400;
-    
-    
-    
-   
+    margin-top: 0.3em;
+
+
 }
+
+.play {
+    display: flex;
+}
+
 
 .play-btn {
     display: flex;
-   
+
 
 }
 
 .play-btn img {
     width: 52px;
-height: 52px;
+    height: 52px;
 
 }
