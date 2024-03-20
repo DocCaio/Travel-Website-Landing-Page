@@ -33,6 +33,8 @@ const Travel = () => {
                     
                 </ul>
             </nav>
+            <div className='text'>
+                
             <h2>Best Destinations around the world</h2>
             <h1>
                 Travel, enjoy<br/> 
@@ -44,6 +46,24 @@ const Travel = () => {
                 Preferred to sportsmen it engrossed listening. Park gate <br/> 
                 sell they west hard for the.
             </p>
+            
+            <div>  
+
+               <a href='#'>Find out more</a>
+                
+               <div className='play-btn'> 
+               <img  src="assets/Play-button.svg" ></img>
+               <small>Play Demo</small>    
+               </div> 
+            
+            </div>
+            
+           
+            </div>
+
+            <img  src="assets/Traveller-main.png" ></img>
+           
+            
         </header>
 
      )
