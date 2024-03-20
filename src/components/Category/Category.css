@@ -1,0 +1,10 @@
+ .category h2 {
+    color: var(--3rd);
+text-align: center;
+font-family: var(--h1);
+font-size: 50px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+text-transform: capitalize;
+ }

@@ -1,8 +1,7 @@
 import './App.css';
 import Navegation from './components/Navegation';
 import Trip from './components/Trip';
-
-
+import Category from './components/Category';
 
 
 
@@ -14,8 +13,8 @@ function App() {
     <div className='container'>
       <Navegation/>
     <div>
-    <Trip />
-      
+    <Trip/>
+    <Category/>      
     </div>
   </div>
   

@@ -1,10 +1,21 @@
 .text {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     padding: 1rem;
 }
 
-main h2 {
+.text  h1 {
+    color: var(--1st);
+font-family: Volkhov;
+font-size: 84px;
+font-style: normal;
+font-weight: 700;
+line-height: 89px; /* 105.952% */
+letter-spacing: -3.36px;
+
+}
+
+.text h2 {
     color: #DF6951;
     font-family: var(--ff);
     font-size: 20px;
@@ -14,7 +25,7 @@ main h2 {
     text-transform: uppercase;
 }
 
-main p {
+.text p {
     color: var(--phr);
     font-family: var(--ff);
     font-size: 16px;

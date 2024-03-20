@@ -1,7 +1,9 @@
 .nav_bar {
     display: flex;
-    justify-content: space-between;
-    padding: 1rem;
+    justify-content: space-around;
+    padding: 1rem 0rem;
+    gap: 40rem;
+
 
 
 }
@@ -27,6 +29,3 @@
     border: 1px solid var(--text);
     padding: 0.5rem;
 }
-
-
-
