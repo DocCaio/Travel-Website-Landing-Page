@@ -14,7 +14,7 @@ function App() {
       <Navegation/>
     <div>
     <Trip/>
-    <Category/>      
+    <Category/>          
     </div>
   </div>
   

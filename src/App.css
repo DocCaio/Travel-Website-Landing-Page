@@ -1,6 +1,7 @@
 :root {
     --text:#212832;
     --ff:"Poppins", sans-serif;
+    --h3: "Open Sans";
     --1st: #181E4B;
     --3rd: #14183E;
     --phr:#5E6282;
@@ -8,6 +9,8 @@
     --yellow: #F1A501;
     --text-color: #686D77;
     --h1: "Volkhov", serif;
+    --text-heading-color: #1E1D4C;
+    --TEXT-CLR: #5E6282;
     
 
 }

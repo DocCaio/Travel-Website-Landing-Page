@@ -1,10 +1,44 @@
+ .category {
+     text-align: center;
+ }
+
  .category h2 {
-    color: var(--3rd);
+     color: var(--3rd);
+     text-align: center;
+     font-family: var(--h1);
+     font-size: 50px;
+     font-weight: 700;
+     text-transform: capitalize;
+ }
+
+ .cards ul {
+     display: inline-flex;
+     gap: 1rem;
+     list-style: none;
+ }
+
+ li {
+    width: 267px;
+    height: 314px;
+
+ }
+
+ .card h3 {
+    color: var(--text-heading-color);
 text-align: center;
-font-family: var(--h1);
-font-size: 50px;
+font-family:var(--h3);
+font-size: 20px;
 font-style: normal;
-font-weight: 700;
+font-weight: 600;
 line-height: normal;
-text-transform: capitalize;
+ }
+
+ .card p {
+    color: var(--TEXT-CLR);
+text-align: center;
+font-family: var(--ff);
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px; /* 162.5% */
  }
