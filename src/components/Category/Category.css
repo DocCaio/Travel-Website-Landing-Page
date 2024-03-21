@@ -17,28 +17,30 @@
      list-style: none;
  }
 
- li {
-    width: 267px;
-    height: 314px;
+ .card-list li {
+     width: 267px;
+     height: 314px;
 
  }
 
+
  .card h3 {
-    color: var(--text-heading-color);
-text-align: center;
-font-family:var(--h3);
-font-size: 20px;
-font-style: normal;
-font-weight: 600;
-line-height: normal;
+     color: var(--text-heading-color);
+     text-align: center;
+     font-family: var(--h3);
+     font-size: 20px;
+     font-style: normal;
+     font-weight: 600;
+     line-height: normal;
  }
 
  .card p {
-    color: var(--TEXT-CLR);
-text-align: center;
-font-family: var(--ff);
-font-size: 16px;
-font-style: normal;
-font-weight: 400;
-line-height: 26px; /* 162.5% */
+     color: var(--TEXT-CLR);
+     text-align: center;
+     font-family: var(--ff);
+     font-size: 16px;
+     font-style: normal;
+     font-weight: 400;
+     line-height: 26px;
+     /* 162.5% */
  }

@@ -12,26 +12,26 @@ export default function Category() {
             <h2>We Offer Best Services</h2>
 
             <div className='cards'>
-                <ul>
+                <ul className='card-list'>
                     <li>
                     <img src={Ant} alt='códigos' />
                     <h3>Calculated Weather </h3>
-                    <p>Built Wicket longer admire do barton vanity itself do in it.</p>
+                    <p>Built Wicket longer<br/> admire do barton<br/> vanity itself do in it.</p>
                     </li>
                     <li>
                     <img src={Airplane} alt='códigos' /> 
                     <h3>Best Flights</h3>
-                    <p>Engrossed listening. Park gate sell they west hard for the.</p>                   
+                    <p>Engrossed listening.<br/> Park gate sell they<br/> west hard for the.</p>                   
                     </li>
                     <li>
                     <img src={Mic} alt='códigos' />
                     <h3>Local Events</h3>
-                    <p>Barton vanity itself do in it. Preferd to men it engrossed listening. </p>
+                    <p>Barton vanity itself do<br/> in it. Preferd to men it<br/> engrossed listening. </p>
                     </li>
                     <li>
                     <img src={Machine} alt='códigos' />
                     <h3>Customization</h3>
-                    <p>We deliver outsourced aviation services for military customers</p>
+                    <p>We deliver outsourced<br/> aviation services for<br/> military customers</p>
                     </li>
                 </ul>
 
