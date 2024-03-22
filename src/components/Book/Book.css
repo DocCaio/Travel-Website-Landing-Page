@@ -1,0 +1,30 @@
+.book {
+    color: var(--3rd);
+    font-family: var(--h1);
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+.book-trip {
+    display: flex;
+}
+
+.book-trip h4 {
+    color: var(--TEXT-CLR);
+font-family: var(--ff);
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: 124.5%; /* 19.92px */
+}
+
+.book-trip p {
+    color: var(--TEXT-CLR);
+font-family: var(--ff);
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 124.5%; /* 19.92px */
+}

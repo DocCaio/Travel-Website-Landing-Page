@@ -19,7 +19,7 @@ export default function Category() {
                     <p>Built Wicket longer<br/> admire do barton<br/> vanity itself do in it.</p>
                     </li>
                     <li>
-                    <img src={Airplane} alt='códigos' /> 
+                    <img className='test' src={Airplane} alt='códigos' /> 
                     <h3>Best Flights</h3>
                     <p>Engrossed listening.<br/> Park gate sell they<br/> west hard for the.</p>                   
                     </li>
