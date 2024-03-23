@@ -40,7 +40,6 @@ export default function Book() {
              adipiscing elit. Urna, tortor tempus. </p>
         </div>
         </div> 
-
        
    
         </div>
