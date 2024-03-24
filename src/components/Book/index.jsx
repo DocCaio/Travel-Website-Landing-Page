@@ -8,10 +8,11 @@ import Girl from './assets/girl.jpg';
 export default function Book() {
     return (
        <section className='book'>
+
         <div>
         <small>Easy and Fast</small>
         <h2>Book your next trip <br/> in 3 easy steps</h2>
-
+        
         <div>
 
         <div className='book-trip'>            
