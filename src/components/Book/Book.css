@@ -1,4 +1,10 @@
 .book {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.book h2 {
     color: var(--3rd);
     font-family: var(--h1);
     font-size: 30px;
@@ -13,18 +19,49 @@
 
 .book-trip h4 {
     color: var(--TEXT-CLR);
-font-family: var(--ff);
-font-size: 16px;
-font-style: normal;
-font-weight: 700;
-line-height: 124.5%; /* 19.92px */
+    font-family: var(--ff);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 124.5%;
+    /* 19.92px */
 }
 
 .book-trip p {
     color: var(--TEXT-CLR);
-font-family: var(--ff);
-font-size: 16px;
-font-style: normal;
-font-weight: 400;
-line-height: 124.5%; /* 19.92px */
+    font-family: var(--ff);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 124.5%;
+    /* 19.92px */
+}
+
+.book-card {
+    padding: 1rem;
+    border-radius: 26px;
+    background: var(--circle);
+    width: 370px;
+    height: 300px;
+
+}
+
+.book-card h4 {
+    color: var(--black);
+    font-family: var(--ff);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 124.5%;
+    /* 22.41px */
+    letter-spacing: 0.27px;
+}
+.book-card-icons {
+    display: inline-flex;
+    gap: 1rem;
+}
+
+.book-card-icons img { 
+    margin-top: 1rem;   
+    fill: var(--circle);
 }
