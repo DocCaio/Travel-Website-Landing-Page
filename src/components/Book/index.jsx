@@ -6,6 +6,7 @@ import Girl from './assets/girl.jpg';
 import Leaf from './assets/leaf.svg';
 import Map from './assets/map.svg';
 import Arrow from './assets/arrow.svg';
+import Heart from './assets/heart.svg';
 
 
 
@@ -70,6 +71,7 @@ export default function Book() {
 
         </div>
             
+        
 
         </div>
 

@@ -4,6 +4,8 @@ import Trip from './components/Trip';
 import Category from './components/Category';
 import Destinations from './components/Destinations';
 import Book from './components/Book';
+import Customers from './components/Customers';
+
 
 
 
@@ -18,7 +20,8 @@ function App() {
       <Trip/>
       <Category/>
       <Destinations/> 
-      <Book/>         
+      <Book/> 
+      <Customers/>
     </div>
   </div>
   

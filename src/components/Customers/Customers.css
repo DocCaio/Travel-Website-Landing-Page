@@ -1,0 +1,25 @@
+
+
+.costumers small  {
+
+color: var(--TEXT-CLR);
+font-family: var(-ff);
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+text-transform: uppercase;
+
+}
+
+
+.costumers h2  {
+    color: var(--3rd);
+font-family: var(--h1);
+font-size: 50px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+text-transform: capitalize;
+
+}
