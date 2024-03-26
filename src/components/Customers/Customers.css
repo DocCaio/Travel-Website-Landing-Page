@@ -1,25 +1,65 @@
+.costumers {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 5rem;
+}
 
+.costumers small {
 
-.costumers small  {
-
-color: var(--TEXT-CLR);
-font-family: var(-ff);
-font-size: 18px;
-font-style: normal;
-font-weight: 600;
-line-height: normal;
-text-transform: uppercase;
+    color: var(--TEXT-CLR);
+    font-family: var(-ff);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
 
 }
 
 
-.costumers h2  {
+.costumers h2 {
     color: var(--3rd);
-font-family: var(--h1);
-font-size: 50px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
-text-transform: capitalize;
+    font-family: var(--h1);
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
 
+.coments {
+    display: block;
+    justify-content: center;
+    border-radius: 10px;
+    background: var(--circle);
+    width: 454px;
+    height: 245px;
+    padding: 0.5rem;
+
+
+}
+
+.coments p {
+    color: var(--TEXT-CLR);
+    font-family: var(--ff);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    /* 200% */
+}
+
+.coments h5 {
+    color: var(--TEXT-CLR);
+    font-family: var(--ff);
+    font-size: 18px;
+    font-weight: 600;
+
+}
+
+.coments img {
+    position: relative;
+    top: -25px;
+    left: -25px;
 }

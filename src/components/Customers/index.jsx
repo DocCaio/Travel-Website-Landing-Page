@@ -1,10 +1,12 @@
 import  './Customers.css';
+import Guy from './assets/guy.svg';
 
 export default function Customers() {
     return (
         <section className="costumers">
             
-        <div className="costumers-container">
+           
+       
 
         <div>
             <small>Testimonials</small>
@@ -15,7 +17,9 @@ export default function Customers() {
         </div>
 
         <div className="coments">
+         <img src={Guy} alt='códigos' />
             <p>
+                
                 “On the Windows talking painted pasture yet
                  its express parties use. Sure last upon he
                   same as knew next. 
@@ -24,7 +28,7 @@ export default function Customers() {
             <h5>Mike taylor</h5>
         </div>
 
-        </div>
+        
     </section>
 
     )
