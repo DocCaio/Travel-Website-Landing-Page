@@ -5,6 +5,10 @@ import Category from './components/Category';
 import Destinations from './components/Destinations';
 import Book from './components/Book';
 import Customers from './components/Customers';
+import Partners from './components/Partners';
+import Send from './components/Send/assets';
+
+
 
 
 
@@ -22,6 +26,8 @@ function App() {
       <Destinations/> 
       <Book/> 
       <Customers/>
+      <Partners/>
+      <Send/>
     </div>
   </div>
   

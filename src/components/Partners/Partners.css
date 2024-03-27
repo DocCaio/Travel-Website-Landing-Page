@@ -1,0 +1,12 @@
+.partners {
+    margin-top: 3rem;
+}
+
+
+.partners-list {
+    display: flex;
+    justify-content: center;
+    gap: 10.5em;
+    list-style: none;
+
+}

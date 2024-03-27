@@ -1,0 +1,48 @@
+.light {
+    background-color: var(--light-color);
+    border-radius: 20px 129px 20px 20px;
+    opacity: 0.2;
+
+}
+
+.light h3 {
+    color: var(--TEXT-CLR);
+    text-align: center;
+    font-family: var(--ff);
+    font-size: 33px;
+    font-weight: 600;
+    line-height: 54px;
+    /* 163.636% */
+}
+
+.light input {
+    background-image: url("./assets/fly.svg");
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 1.3em;
+    padding-left: 1.3em;
+
+
+
+    color: var(--TEXT-COLOR);
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+    width: 421px;
+    height: 68px;
+
+
+    border-radius: 10px;
+    background: var(--white);
+}
+
+.light button {
+    border-radius: 10px;
+    background: var(--gradient);
+    width: 180px;
+    height: 68px;
+
+}
