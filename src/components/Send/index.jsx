@@ -1,7 +1,7 @@
 import  './Send.css';
 export default function Send() {
     return (
-        <section>
+        <section className='teste'>
             <div className='light'>
                 <h3>
                     Subscribe to get information, latest news and other <br/>

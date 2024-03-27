@@ -6,7 +6,7 @@ import Destinations from './components/Destinations';
 import Book from './components/Book';
 import Customers from './components/Customers';
 import Partners from './components/Partners';
-import Send from './components/Send/assets';
+import Send from './components/Send';
 
 
 

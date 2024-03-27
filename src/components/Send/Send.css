@@ -1,7 +1,17 @@
+.teste {
+    display: flex;
+    justify-content: center;
+
+
+}
+
 .light {
+    text-align: center;
     background-color: var(--light-color);
     border-radius: 20px 129px 20px 20px;
-    opacity: 0.2;
+    width: 1170px;
+    height: 407px;
+    flex-shrink: 0;
 
 }
 
@@ -21,15 +31,17 @@
     background-position: left;
     background-size: 1.3em;
     padding-left: 1.3em;
+    outline: none;
 
 
 
     color: var(--TEXT-COLOR);
-    font-family: Montserrat;
+    font-family: var(--input);
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
-    line-height: normal;
+    margin-right: 1em;
+    border: none;
 
     width: 421px;
     height: 68px;
@@ -41,8 +53,15 @@
 
 .light button {
     border-radius: 10px;
+    border: none;
     background: var(--gradient);
     width: 180px;
     height: 68px;
+    color: var(--white, #FFF);
+    text-align: center;
+    font-family: var(--h3);
+    font-size: 17px;
+    font-weight: 600;
+
 
 }
