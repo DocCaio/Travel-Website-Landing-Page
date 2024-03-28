@@ -1,11 +1,13 @@
-.teste {
+.send {
     display: flex;
     justify-content: center;
+
 
 
 }
 
 .light {
+    padding-top: 7rem;
     text-align: center;
     background-color: var(--light-color);
     border-radius: 20px 129px 20px 20px;

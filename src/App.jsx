@@ -7,6 +7,7 @@ import Book from './components/Book';
 import Customers from './components/Customers';
 import Partners from './components/Partners';
 import Send from './components/Send';
+import Contact  from './components/Contact';
 
 
 
@@ -29,6 +30,7 @@ function App() {
       <Partners/>
       <Send/>
     </div>
+     <Contact/>
   </div>
   
    
