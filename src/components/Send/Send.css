@@ -3,11 +3,12 @@
     justify-content: center;
 
 
-
 }
 
+
+
 .light {
-    padding-top: 7rem;
+    padding-top: 4rem;
     text-align: center;
     background-color: var(--light-color);
     border-radius: 20px 129px 20px 20px;
@@ -15,6 +16,12 @@
     height: 407px;
     flex-shrink: 0;
 
+}
+
+.light img {
+    position: relative;
+    top: -90px;
+    right: -500px;
 }
 
 .light h3 {
