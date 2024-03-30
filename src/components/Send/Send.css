@@ -46,8 +46,7 @@
 
     color: var(--TEXT-COLOR);
     font-family: var(--input);
-    font-size: 14px;
-    font-style: normal;
+    font-size: 14px;    
     font-weight: 400;
     margin-right: 1em;
     border: none;
