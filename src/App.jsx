@@ -31,11 +31,7 @@ function App() {
       <Send/>
     </div>
      <Contact/>
-  </div>
-  
-   
-    
-    
+  </div>    
    
   )
 
