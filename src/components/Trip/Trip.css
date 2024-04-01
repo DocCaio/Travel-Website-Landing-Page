@@ -4,14 +4,14 @@
     padding: 1rem;
 }
 
-.text  h1 {
+.text h1 {
     color: var(--1st);
-font-family: Volkhov;
-font-size: 84px;
-font-style: normal;
-font-weight: 700;
-line-height: 89px; /* 105.952% */
-letter-spacing: -3.36px;
+    font-family: var(--h1);
+    font-size: 84px;
+    font-weight: 700;
+    line-height: 89px;
+    /* 105.952% */
+    letter-spacing: -3.36px;
 
 }
 
@@ -74,4 +74,16 @@ small {
     width: 52px;
     height: 52px;
 
+}
+
+@media (max-width: 600px) {
+    .text h1 {
+        font-size: 54px;
+        font-weight: 400;
+
+    }
+
+    .traveller {
+        display: none;
+    }
 }

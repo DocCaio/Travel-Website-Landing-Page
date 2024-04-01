@@ -45,3 +45,20 @@
      /* 162.5% */
  }
 
+ @media (max-width: 600px) {
+
+     .category {
+         display: flex;
+         flex-direction: column;
+     }
+
+     .cards ul {
+         display: flex;
+         align-items: center;
+         flex-direction: column;
+         margin-top: 1rem;
+
+     }
+
+
+ }

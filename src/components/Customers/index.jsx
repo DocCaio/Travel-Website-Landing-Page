@@ -3,8 +3,7 @@ import Guy from './assets/guy.svg';
 
 export default function Customers() {
     return (
-        <section className="costumers">
-            
+        <section className="costumers">           
            
        
 

@@ -34,7 +34,7 @@ export default function Trip() {
            
             </div>
 
-            <img  src="assets/Traveller-main.png" ></img>
+            <img className='traveller'  src="assets/Traveller-main.png" ></img>
 
 
             </section>
