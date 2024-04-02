@@ -57,3 +57,19 @@
     justify-content: center;
     margin-bottom: 2rem;
 }
+
+
+@media (max-width: 600px) {
+
+    .contact {
+        display: flex;
+         padding:2rem ;
+        flex-direction: column;
+    }
+
+    .contact ul {
+        margin-top: 1rem;
+    }
+
+
+}
