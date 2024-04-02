@@ -5,6 +5,8 @@ const Navegation = () => {
     return (
 
         <header>
+          
+             <button id="menu-button">&#9776;</button>
             <nav className='nav_bar'>
                 <img  src="/logo.svg" ></img>
                 <ul>
