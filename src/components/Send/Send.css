@@ -73,3 +73,11 @@
 
 
 }
+
+@media (max-width: 600px) {
+  .light img {
+    display: none;
+   
+  }
+
+}
