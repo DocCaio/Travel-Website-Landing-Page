@@ -1,4 +1,4 @@
-.nav_bar {
+.menu {
     display: flex;
     justify-content: space-around;
     padding: 1rem 0rem;
@@ -8,14 +8,14 @@
 
 }
 
-.nav_bar ul {
+.menu ul {
     display: flex;
     gap: 1rem;
     list-style: none;
 
 }
 
-.nav_bar ul a {
+.menu ul a {
     font-family: var(--ff);
     color: var(--text);
     text-decoration: none;
@@ -30,9 +30,29 @@
     padding: 0.5rem;
 }
 
+.menu_button {
+    display: none;
+}
 
-@media (max-width: 600px) {
-    .nav_bar  {
-      display: none;
-    }
-  }
+
+
+
+@media (min-width: 600px) {  
+
+    /*menu*/
+
+.menu.active {
+    opacity: 1;
+    visibility: visible;
+}
+
+.menu {
+    opacity: 0;
+}
+
+.menu_button {
+    margin-left: auto;
+    cursor: pointer;
+
+}
+}
