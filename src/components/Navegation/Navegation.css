@@ -5,7 +5,6 @@
     gap: 40rem;
 
 
-
 }
 
 .menu ul {
@@ -30,29 +29,48 @@
     padding: 0.5rem;
 }
 
-.menu_button {
-    display: none;
-}
 
+@media (max-width: 600px) {
 
-
-
-@media (min-width: 600px) {  
+    .menu img {
+        display: none;
+    }
 
     /*menu*/
 
-.menu.active {
-    opacity: 1;
-    visibility: visible;
-}
+    .menu {
+        display: block;
+        flex-direction: column;
+    }
 
-.menu {
-    opacity: 0;
-}
+    .menu ul {
+        display: flex;
+        flex-direction: column;
+        padding: 1em;
 
-.menu_button {
-    margin-left: auto;
-    cursor: pointer;
+    }
 
-}
+    .menu_button {
+        position: relative;
+        top: 10px;
+        left: 10px;
+        padding: 0.3em;
+        background-color: var(--yellow);
+
+    }
+
+    .menu.active {
+        opacity: 1;
+        visibility: visible;
+    }
+
+    .menu {
+        opacity: 0;
+    }
+
+    .menu_button {
+        margin-left: auto;
+        cursor: pointer;
+
+    }
 }

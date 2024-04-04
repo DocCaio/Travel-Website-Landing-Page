@@ -16,7 +16,7 @@
 }
 
 .text h2 {
-    color: #DF6951;
+    color: var(--h2-color);
     font-family: var(--ff);
     font-size: 20px;
     font-style: normal;

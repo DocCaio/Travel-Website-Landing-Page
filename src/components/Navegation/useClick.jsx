@@ -1,4 +1,5 @@
 import './Navegation.css';
+import './index'
 
 import React, { useState  , useEffect} from 'react';
 
