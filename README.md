@@ -11,7 +11,7 @@
 ![Badge em Desenvolvimento](http://img.shields.io/static/v1?label=STATUS&message=%20finished&color=GREEN&style=for-the-badge)
 
 ### Print
-  <img src="https:"#" alt="Minha Figura">
+  <img src="https://github.com/DocCaio/Travel-Website-Landing-Page/blob/main/public/print.png" alt="Minha Figura">
 
 ### npm run dev
 
