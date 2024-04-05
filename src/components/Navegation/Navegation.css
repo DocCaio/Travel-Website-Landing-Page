@@ -44,8 +44,9 @@
     /*menu*/
 
     .menu {
-        display: block;
-        flex-direction: column;        
+        display: flex;
+        flex-direction: column;
+        opacity: 0;
     }
 
     .menu ul {
@@ -70,9 +71,7 @@
         visibility: visible;
     }
 
-    .menu {
-        opacity: 0;
-    }
+
 
     .menu_button {
         margin-left: auto;

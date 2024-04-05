@@ -1,7 +1,7 @@
 import './Navegation.css';
 import './index'
 
-import React, { useState  , useEffect} from 'react';
+import  { useState  , useEffect} from 'react';
 
 export const useClick = (el , initialState)  =>{
    const [isActive , setIsActive] = useState(initialState)
